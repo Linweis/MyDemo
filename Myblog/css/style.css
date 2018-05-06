@@ -215,21 +215,25 @@ h1 {
     font-family: arial, 微軟正黑體;
 }
 
-button {
+.mygit {
+    display: inline-block;
     border: 1px solid #fff;
     background-color: rgba(119, 119, 119, 0);
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
     font-family: 微軟正黑體;
-    padding: 14px 30px;
+    padding: 14px 20px;
     letter-spacing: 2px;
     outline: none;
     cursor: pointer;
     transition: all 0.1s linear;
+    text-decoration: none;
+    margin-top:20px;
 }
 
-button:hover {
+
+.mygit:hover {
     border: 3px solid #fff;
     padding: 12px 28px;
     font-weight: 900;
@@ -542,6 +546,11 @@ footer a {
     right:44%;
  }
 
+ .mygit {
+     font-size:15px;
+     padding:12px 15px;
+ }
+
     .icon {
         display: inline-block;
         width: 100px;
@@ -569,14 +578,13 @@ footer a {
 
 }
 
-@media(max-width:464px){
+@media(max-width:465px){
     h1 {
         font-size: 30px;
     }
-
-    button {
-        font-size: 15px;
-        padding: 14px 20px;
+    .mygit {
+        font-size: 12px;
+        padding:10px 12px;
     }
 
     .green-section {
