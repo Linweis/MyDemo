@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>blog demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+</head>
+
+<body>
+    <div class="main">
+        <header id="idtoScrollTo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#idtoScrollTo" scrollTo="idtoScrollTo1" class="scrollOnClick" duration="1000">簡介</a>
+                    </li>
+                    <li>
+                        <a href="#idtoScrollTo" scrollTo="idtoScrollTo2" class="scrollOnClick" duration="1100">作品</a>
+                    </li>
+                    <li>
+                        <a href="#idtoScrollTo" scrollTo="idtoScrollTo3" class="scrollOnClick nav-mar" duration="1200">技能</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="inner">
+                    <h1>林小窩</h1>
+                    <p>welcome to here！歡迎光臨來到這裡</p>
+                    <button>聯絡我</button>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <section class="green-section" id="idtoScrollTo1">
+                    <h2>越努力越幸運</h2>
+                    <div class="hr"></div>
+                        <!--分隔線-->
+                    <div class="text">
+                    <p>1992/10/31&nbsp; &nbsp;&nbsp; 台東人&nbsp; &nbsp;&nbsp; 大學就讀崑山科技大學公共關係暨廣告系</p>
+                    <p>偶然在網路上了解到前端的相關資訊，原來我們幾乎每天都會接觸到前端技術，就在打開網頁或是點開手機的瞬間</p>
+                    <p>前端技術的強大讓我產生了興趣，並開始透過線上教材進行學習，期許自己能成為優秀的前端工程師</p>
+                    <p>未來若有能力甚至有機會的話，也希望能夠結合前端跨足更多的領域</p>
+                </div>
+                <span class="icon">
+                    <i class="fas fa-code"></i>
+                </span>
+                <span class="icon">
+                    <i class="fas fa-desktop"></i>
+                </span>
+                <span class="icon">
+                    <i class="fas fa-book"></i>
+                </span>
+            </section>
+            <section class="gray-section" id="idtoScrollTo2">
+                <div class="article">
+                    <div class="img-section">
+                        <img src="img/01.png" alt="作品1">
+                    </div>
+                    <div class="text-section">
+                        <h3>高雄旅遊網</h3>
+                        <p>利用高雄市政府開放平台抓取JSON資料，透過JavaScript渲染至網頁</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="text-section">
+                        <h3>BMI計算機</h3>
+                        <p>抓取使用者輸入的資料並進行計算，結合localstorage做到資料暫存的效果</p>
+                    </div>
+                    <div class="img-section">
+                        <img src="img/02.png" alt="作品2" class="img-right">
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="img-section">
+                        <img src="img/03.png" alt="作品3">
+                    </div>
+                    <div class="text-section">
+                        <h3>Todo List</h3>
+                        <p>利用jQuery新增或刪除dom元素，做出Todo List的效果</p>
+                    </div>
+                </div>
+            </section>
+            <section class="purple-section" id="idtoScrollTo3">
+                <div class="warpper">
+                    <h3>掌握技能</h3>
+                    <div class="card-group">
+                        <div class="card">
+                            <h4>HTML - 75%</h4>
+                            <div class="circle">
+                                <div class="box"></div>
+                                <div class="box box1"></div>
+                                <div class="box box-html"></div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <h4>CSS - 70%</h4>
+                            <div class="circle">
+                                <div class="box"></div>
+                                <div class="box box1"></div>
+                                <div class="box box-css"></div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <h4>JavaScript - 60%</h4>
+                            <div class="circle">
+                                <div class="box"></div>
+                                <div class="box box1"></div>
+                                <div class="box box-js"></div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <h4>jQuery - 65%</h4>
+                            <div class="circle">
+                                <div class="box"></div>
+                                <div class="box box1"></div>
+                                <div class="box box-jq"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>&COPY;&nbsp;2018 Lin wei &nbsp;&nbsp;&nbsp; RWD &nbsp;&nbsp;&nbsp;
+                <a href="#idtoScrollTo" scrollTo="idtoScrollTo" class="scrollOnClick" duration="1500">
+                    <i class="far fa-arrow-alt-circle-up"></i>&nbsp;回到最上</a>
+            </p>
+        </footer>
+    </div>
+    <script src="js/smoothScroll-Es5.js"></script>
+    <!--滾軸插件-->
+</body>
+
+</html>
